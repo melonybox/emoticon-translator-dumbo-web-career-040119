@@ -10,7 +10,9 @@ def load_library(pathFile)
     newList['get_meaning'][emoticon[1]] = x
     newList['get_emoticon'][emoticon[0]] = emoticon[1]
   end
-  binding.pry
+  
+  return newList
+  
 end
 
 def get_japanese_emoticon
