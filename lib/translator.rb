@@ -8,6 +8,7 @@ def load_library(pathFile)
   
   newListA.each do |x,emoticon|
     newList['get_meaning'][emoticon[1]] = x
+    newList['get_emoticon'][emoticon[0]] = emoticon[1]
   end
   binding.pry
 end
