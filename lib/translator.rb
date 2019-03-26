@@ -18,6 +18,7 @@ end
 def get_japanese_emoticon(pathFile,emotion)
   newListA = load_library(pathFile)
   
+  binding.pry
   # code goes here
 end
 
