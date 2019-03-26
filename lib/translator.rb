@@ -18,6 +18,7 @@ end
 def get_japanese_emoticon(pathFile,emotion)
   newListA = load_library(pathFile)
   
+  if 
   daEmote = newListA['get_emoticon']["#{emotion}"]
   
   return daEmote
