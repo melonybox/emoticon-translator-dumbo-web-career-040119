@@ -8,10 +8,8 @@ def load_library(pathFile)
   
   newListA.each do |x,emoticon|
     newList['get_meaning'][emoticon] = emoticon[1]
-    
-    binding.pry
-
   end
+  binding.pry
 end
 
 def get_japanese_emoticon
