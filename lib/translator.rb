@@ -6,8 +6,10 @@ def load_library(pathFile)
   newListA = YAML.load_file(pathFile)
   newList = {"get_emoticon" => {}, "get_meaning" => {}}
   
-  newListA.each do |x,y|
+  newListA.each do |x,emoticon|
     newList['get_meaning'][y] = [1]
+    
+    binding.pry
 
   end
 end
