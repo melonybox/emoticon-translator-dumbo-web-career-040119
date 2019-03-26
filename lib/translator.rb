@@ -3,6 +3,7 @@ require "yaml"
 
 def load_library(pathFile)
   YAML.load_file(pathFile)
+  newList = {"get_emoticon" => {}, "get_meaning" => {}}
 end
 
 def get_japanese_emoticon
