@@ -26,5 +26,11 @@ def get_japanese_emoticon(pathFile,emotion)
 end
 
 def get_english_meaning
-  # code goes here
+  newListA = load_library(pathFile)
+  
+  if newListA['get_emoticon']["#{emotion}"]
+    daEmote = newListA['get_emoticon']["#{emotion}"]
+  else
+    return "Sorry, that emoticon was not found"
+  end
 end
