@@ -20,8 +20,7 @@ def get_japanese_emoticon(pathFile,emotion)
   
   daEmote = newListA['get_emoticon']["#{emotion}"]
   
-  binding.pry
-  # code goes here
+  return daEmote
 end
 
 def get_english_meaning
