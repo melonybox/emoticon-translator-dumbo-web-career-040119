@@ -29,7 +29,7 @@ def get_english_meaning(pathFile,emotion)
   newListA = load_library(pathFile)
   
   if newListA['get_meaning']["#{emotion}"]
-    daEmote = newListA['get_emoticon']["#{emotion}"]
+    daEmote = newListA['get_meaning']["#{emotion}"]
   else
     return "Sorry, that emoticon was not found"
   end
