@@ -1,9 +1,14 @@
 # require modules here
+require 'pry'
 require "yaml"
 
 def load_library(pathFile)
   newListA = YAML.load_file(pathFile)
   newList = {"get_emoticon" => {}, "get_meaning" => {}}
+  
+  newListA.each do |x,y|
+    binding.pry
+  end
 end
 
 def get_japanese_emoticon
