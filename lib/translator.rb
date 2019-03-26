@@ -7,8 +7,8 @@ def load_library(pathFile)
   newList = {"get_emoticon" => {}, "get_meaning" => {}}
   
   newListA.each do |x,y|
-    newList['get_meaning'][y][1]
-    binding.pry
+    newList['get_meaning'][y] = [1]
+
   end
 end
 
